@@ -1,5 +1,4 @@
 python_jwt
-python-lxml
 requests_toolbelt
 gcloud
 sseclient
