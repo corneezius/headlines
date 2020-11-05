@@ -1,5 +1,6 @@
 requests
-parcel
+parsel
 firebase
 flask
 flask_restful
+flask_cors
