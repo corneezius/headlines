@@ -75,7 +75,7 @@
 
     <script>
 {/*         $(document).ready(function(){
-            
+
         });*/}
             function update_value(i){
             CodeMirror.fromTextArea(document.getElementById("code1"), {
@@ -88,7 +88,8 @@
             }
 
             function run_job(){
-                alert('hi')
+update_value('Initiated')
+
         $.ajax({
             type:'GET',
             url:"/run",
