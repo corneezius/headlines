@@ -2,13 +2,11 @@ from flask import Flask, render_template, send_from_directory,redirect,url_for,r
 import requests
 import os
 from flask_restful import Resource, Api,reqparse
-from flask_cors import CORS
 from multiprocessing import Process
 import traceback
 import runpy
 server = Flask(__name__)
 api = Api(server)
-CORS(server)
 
 
 class Run(Resource):
