@@ -5,7 +5,6 @@ sseclient
 crypto
 pycrypto
 pycryptodome
-cryptography
 cssselect
 Werkzeug
 requests
