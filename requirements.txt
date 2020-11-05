@@ -1,3 +1,7 @@
 requests
 parcel
 firebase
+flask
+flask_restful
+flask_cors
+multiprocessing
